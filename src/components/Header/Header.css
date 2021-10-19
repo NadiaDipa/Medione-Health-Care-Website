@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(15, 14, 14);
+    font-weight: 700;
+    font-size: large;
+
+}
+
+.nav-item {
+    color: #388EB3 !important;
+
+}
+
+.nav-item:hover {
+
+    border: 2px solid #BB1070;
+    border-radius: 10px;
+    color: white !important;
+
+}

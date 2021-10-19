@@ -7,7 +7,8 @@ import './Login.css';
 const Login = () => {
     return (
         <div className="login-form m-4">
-            <Form onSubmit = "">
+            <Form Form onSubmit = ""
+            className = "border border-5 p-5" >
                 <small>Welcome Back</small>
                 <h2 className="login-header">Login to your account</h2>
                 <hr />

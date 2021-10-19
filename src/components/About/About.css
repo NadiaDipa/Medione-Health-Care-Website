@@ -1,0 +1,14 @@
+body {
+    background-color: #1481BA;
+
+}
+.about-img {
+    margin-left: 400px;
+}
+
+.about-headline {
+    /* color: #BB1070; */
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 70px;
+}

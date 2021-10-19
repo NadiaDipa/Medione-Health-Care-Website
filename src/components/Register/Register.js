@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
-        <div className="login-form m-4">
-           <Form onSubmit = "">
+        <div className = "login-form m-4" >
+           <Form Form onSubmit = ""
+           className = "border border-5 p-5" >
                 <h2 className="login-header">Register</h2>
                 <Form.Text className="text-muted">
                     Create your account. It's free and only takes a minute.
@@ -14,19 +15,11 @@ const Register = () => {
                 <hr />
                 <br />
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                   
                     <Form.Control type="email" placeholder="Enter Your First Name" />
-                    {/* <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text> */}
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                  
                     <Form.Control type="email" placeholder="Enter Your Last Name" />
-                    {/* <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text> */}
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -34,19 +27,18 @@ const Register = () => {
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                  
                     <Form.Control type="password" placeholder="Confirm Your Password" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="I accept the Terms of Use & Privacy Policy" />
                 </Form.Group>
-               <Button className="submit-btn" type="submit">
+                <Button className="submit-btn" type="submit">
                    Register Now
                 </Button>
                 <br />
                 <br />
-                 <p>Already have an account? <Link to="/login">Login</Link></p>
+                <p>Already have an account? <Link to="/login">Login</Link></p>
 
             </Form>
            

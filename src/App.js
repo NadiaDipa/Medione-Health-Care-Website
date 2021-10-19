@@ -13,6 +13,9 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
 // import Services from './components/Services/Services';
 // import Contact from './components/Contact/Contact';
 // import About from './components/AboutUs/About';
@@ -45,17 +48,23 @@ function App() {
         <Route exact path = "/Contact" >
           <Contact></Contact>
         </Route> */}
+        <Route exact path = "/contact" >
+          <Contact></Contact>
+        </Route>
+        <Route exact path = "/about" >
+          <About></About>
+        </Route>
         <Route path = "/login" >
           <Login></Login>
         </Route>
          <Route exact path = "/register" >
           <Register></Register>
         </Route>
-        {/* <Route exact path="*">
+        <Route exact path="*">
           <NotFound></NotFound>
-        </Route> */}
+        </Route>
       </Switch>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       </Router>
     </div>
   );

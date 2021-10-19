@@ -1,0 +1,26 @@
+.contact-body{
+    background-color: whitesmoke;
+}
+.from {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.button {
+    color: white;
+    background-color: #BB1070;
+    
+    padding: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #388EB3;
+    color: whitesmoke;
+    
+}
+
+.contact-img {
+    margin-left: 440px;
+}

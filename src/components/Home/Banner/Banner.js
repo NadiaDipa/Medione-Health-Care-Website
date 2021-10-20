@@ -11,7 +11,7 @@ const Banner = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src = "https://images.pexels.com/photos/3786157/pexels-photo-3786157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      <img className="img-fluid" src = "https://images.pexels.com/photos/3786157/pexels-photo-3786157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       class = "d-block w-100"
       alt = "..." />
       <div class="carousel-caption d-none d-md-block">
@@ -20,7 +20,7 @@ const Banner = () => {
       </div>
     </div>
     <div class="carousel-item">
-      <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUnVv9NEV0Zx8QARQwV3eikzY3yW4249auw&usqp=CAU"
+      <img className="img-fluid" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUnVv9NEV0Zx8QARQwV3eikzY3yW4249auw&usqp=CAU"
       class = "d-block w-100"
       alt = "..." />
       <div class="carousel-caption d-none d-md-block">
@@ -29,7 +29,7 @@ const Banner = () => {
       </div>
     </div>
     <div class="carousel-item">
-      <img src = "https://i.pinimg.com/originals/01/4d/e5/014de57abff0e1f53ac2b704a2414530.jpg"
+      <img className="img-fluid" src = "https://i.pinimg.com/originals/01/4d/e5/014de57abff0e1f53ac2b704a2414530.jpg"
       class = "d-block w-100"
       alt = "..." />
       <div class="carousel-caption d-none d-md-block">

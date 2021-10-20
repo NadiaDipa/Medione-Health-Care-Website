@@ -29,9 +29,9 @@ const Header = () => {
 
                             {
                                 user.displayName ?
-                                    <button onClick={logOut} className="btn btn-outline-primary">Log Out</button>
+                                    <button onClick={logOut} className="btn">Log Out</button>
                                 :
-                                <Link className="nav-link me-4 nav-item btn btn-outline-primary" to="/login">Login</Link>
+                                <Link className="nav-link me-4 nav-item fw-bold" to="/login">Login</Link>
                             }
                         </Nav>
                 </Container>

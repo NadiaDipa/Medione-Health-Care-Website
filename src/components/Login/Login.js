@@ -7,7 +7,7 @@ import './Login.css'
 const Login = () => {
     const { user, signInUsingGit, signInUsingEmailPassword, handleEmail, handlePass, signInUsingGoogle} = useFirebase();
     return (
-       <div className="w-50 mx-auto p-5 shadow my-5">
+       <div className="w-50 mx-auto p-5 shadow mt-5 my-5">
            <div>
             <form onSubmit="">
                 <div className="mb-4">
@@ -40,10 +40,10 @@ const Login = () => {
        </div>
        <div>OR</div>
 
-        <p> Don 't have an account? <Link to="/register">Create Account</Link></p>
+        <p> Don't have an account? <Link to="/register">Create Account</Link></p>
        <div className="fs-2 text-center">
-            <i onClick={signInUsingGoogle} className= "fab fa-google text-danger" ></i>
-            <i onClick={signInUsingGit} className= "fab fa-github ms-3" > </i>
+            <i onClick={signInUsingGoogle} className= "fab fa-google text-danger"></i>
+            <i onClick={signInUsingGit} className= "fab fa-github ms-3"> </i>
        </div>
 
        

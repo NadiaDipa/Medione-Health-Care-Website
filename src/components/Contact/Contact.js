@@ -12,27 +12,36 @@ const Contact = () => {
             </div>
             {/* form-section */}
             <div className="from">
-                <Form className = "mt-5 pe-5 ps-5 pb-5 border border-5" >
-                    <h1 className = "headline text-center pb-3 pt-3 mb-3"> Feel Free to Contact us! </h1>
-                    <Row Row className = "mb-3" >
-                        <Form.Group as={Col} controlId="formGridEmail">
-                            <Form.Label>Full Name</Form.Label>
-                            <Form.Control type="email" placeholder="Enter your full Name"/>
-                        </Form.Group>
+                <form onSubmit="">
+                <div className="mb-4">
+                    <h2 className="login-header mb-3 fw-20">Get in touch with us!</h2>
+                     <p className="text-muted text-center">
+                        Leave your message and we'll get back to you shortly.
+                    </p>
+                    <hr />
+                </div>
+                <div className="mb-3">
+                    <div className="mb-3">
+                        <label for="exampleInputPassword1" className="form-label">Your Full Name</label>
+                        <input onBlur="" type="password" className="form-control" id="exampleInputPassword1" placeholder="Jhon Doe" required/>
+                    </div>
 
-                        <Form.Group as={Col} controlId="formGridPassword">
-                            <Form.Label>Email Address</Form.Label>
-                            <Form.Control type="password" placeholder="Email Address" />
-                        </Form.Group>
-                    </Row>
-
-                    <Form.Group className="mb-3" controlId="formGridAddress1">
-                        <Form.Label>Your Message</Form.Label>
-                        <br />
-                        <textarea placeholder="Write something for us..." rows = "5" cols = "98.5"/>
-                    </Form.Group>
-                    <Button className="button btn-danger">SEND MESSAGE</Button>
-                </Form>
+                    <label for="exampleInputEmail1" className="form-label">Your Email address</label>
+                    <input required onBlur="" type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@domain.com" />
+                </div>
+                
+                <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">Your Phone Number</label>
+                    <input onBlur="" type="password" className="form-control" id="exampleInputPassword1" placeholder="+880 1234567890" required/>
+                </div>
+                <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">Your Message </label>
+                    <textarea placeholder=" Your Question or Comments type here..." rows = "5" cols = "112" required/>
+                </div>
+               
+                <button className="button send-msg">SEND MESSAGE</button>
+                
+            </form>
             </div>
 
           

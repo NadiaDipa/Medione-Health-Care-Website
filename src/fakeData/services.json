@@ -1,0 +1,77 @@
+[{
+        "id": "01",
+        "name": "Medical Counselling",
+        "description": "There are a number of different forms of counselling, some of which are used in specific circumstances. In all forms of counselling the relationship between counsellor and client is of great importance. Counsellors sometimes work in general practices to treat patients with mental heath problems in primary care",
+        "image": "https://bohatala.com/wp-content/uploads/2017/07/medical-counseling.jpg"
+    },
+
+    {
+        "id": "02",
+        "name": "Qualified Doctors",
+        "description": "We have a team of experienced and qualified doctors. Call us to know more about our doctors and staff.All doctors, other than a foundation year one doctors, can work as locum doctors. Locum doctors can therefore be foundation year two junior doctors, junior doctors in speciality training, SAS doctors, GPs or consultants working in hospital.",
+        "image": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX7144434.jpg"
+    },
+
+    {
+        "id": "03",
+        "name": "Emergency Care",
+        "description": "In case of an emergency, feel free to contact us. Our doctors will provide you with the right assistance at the right time.All doctors, other than a foundation year one doctors, can work as locum doctors. Locum doctors can therefore be foundation year two junior doctors, junior doctors in speciality training, SAS doctors, GPs or consultants working in hospital.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdycDff0v9347ZgTRlCqBNfJgK_47i_HoMg&usqp=CAU"
+    },
+
+    {
+        "id": "04",
+        "name": "Covid-19 Vaccine",
+        "description": "Medione is now offering Covid-19 Vaccine, Book your appointment now !!Based on evidence from clinical trials, the Moderna vaccine was 94.1% effective at preventing laboratory-confirmed COVID-19 illness in people who received two doses who had no evidence of being previously infected.Now that COVID-19 vaccines have reached billions of people worldwide, the evidence is overwhelming that no matter which one you take, the vaccines offer life-saving protection against a disease that has killed millions. The pandemic is far from over, and they are our best bet of staying safe.There are four types of vaccines in clinical trials: whole virus, protein subunit, viral vector and nucleic acid (RNA and DNA), each of which protects people, but by producing immunity in a slightly different way.COVID-19 vaccines are 100% free for every individual living in the United States - even if you do not have insurance.If you are uninsured or undocumented, talk to a provider to see if they will agree to bill the federal government for COVID-19 services so you do not have to pay any costs.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdMWZixok0X3CX-07DI5dcfVol5t0ub4kqw&usqp=CAU"
+    },
+
+    {
+        "id": "05",
+        "name": "Medication",
+        "description": "Early pharmacist-led medication review was associated with reduced hospital-bed utilization compared to usual care among high-risk patients under 80 years of age, but not among those who were older. The results of our evaluation suggest that medication review by pharmacists in the emergency department may impact the length of hospital stay in select patient populations.Medication review interventions aim to identify adverse drug events and optimize medication use. Previous evaluations of in-hospital medication reviews have focused on interventions at discharge, with an unclear effect on health outcomes. We assessed the effect of early in-hospital pharmacist-led medication review on the health outcomes of high-risk patients.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOo3AWj_MVwLyLO9M4uBKCJaQVA61ojzlnQ&usqp=CAU"
+    },
+
+    {
+        "id": "06",
+        "name": "Neurological Surgery",
+        "description": "Our surgeons are concerned with the diagnosis and surgical treatment of disorders which affect any portion of the nervous system.Our hospital offers the latest in neurosurgical care, including lifesaving, technically demanding procedures that help adults and children with complex and serious conditions.Our neurosurgery doctors treat neurological diseases such as brain injury or diseases, head injury, spinal injury, brain tumors, spinal tumors, brain hemorrhage, hydrocephalus, nerve injuries, tumors, disc prolapse or herniation, spinal dislocation, unstable spine, congenital malformations like atlanto-axial dislocation, spinal dysraphism etc.",
+        "image": "https://www.indicure.com/images/hospitals/Best%20Neurosurgery%20Hospitals%20in%20India/best-neurology-hospitals-in-india.png"
+    },
+
+    {
+        "id": "07",
+        "name": "Cardiology",
+        "description": "Our Cardiology Services team provides heart screening and diagnosis as well as treatment and support. We offer a variety of resources for people with cardiovascular disease and those looking to keep their heart healthy.There have been more than 1000 cases of successful cardiac and vascular surgeries already done like By pass Beating and non-beating surgery, valve replacement surgery, congenital heart diseases etc. The cardiac hospital is equipped with latest equipment and apparatus. There is a highly skilled team of interventional cardiologists, cardiac surgeons and cardiac anesthesiologist serving in the hospital round the clock. The prices of all procedures are very reasonable, the service is of internation. We have every necessary arrangement to cater our patients on 24/7 basis. We are enriched with Catheterization Laboratory (Cath Lab), Pre & Post Cath area, Coronary Care Unit (CCU), Post CCU, Cardiac Operation Theatre and CT ICU.",
+        "image": "https://i.ytimg.com/vi/kjLSpacfa8k/maxresdefault.jpg"
+    },
+    {
+        "id": "08",
+        "name": "General Surgery",
+        "description": "Our general surgeons focus on abdominal contents including esophagus, stomach, small bowel, colon, liver, pancreas, gallbladder and bile ducts, and often the thyroid gland.Our general surgeons have advanced fellowship training, including training in colon and rectal surgery, minimally invasive gastrointestinal surgery, surgical critical care, trauma and acute care, emergency general surgery and bariatric surgery. We are aiming to expand our services to cater for women with breast cancer.If you suspect you have a general surgery-related condition, talk to your doctor, who can refer you to one of our general surgery units. Rest assured, patient care is our main priority. Using our leading technology, we will provide accurate diagnosis and treatment.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7dcUN1nmk-Y7dMZznKzYUkv0feizUIday4Q&usqp=CAU"
+    },
+
+    {
+        "id": "09",
+        "name": "Vaccines And Flu Shot",
+        "description": "The flu (a.k.a. influenza) is a highly contagious virus that infects millions every year. Unlike the common cold, the flu can last up to two weeks, with some symptoms lasting even longer and can be potentially life-threatening to high-risk groups such as children and seniors.Influenze (the flu) is a contagious disease caused by a virus. It is spread by coughing, sneezing, or respiratory secretions. The best way to prevent the flu is by getting immunized. At royal West Medical Clinic, we provide our patients with proper vaccination and flu shots to protect them against the viruses.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWM6L2We70wFE3mbDFc6Xr8dJdb5Dn_mzxg&usqp=CAU"
+    },
+
+    {
+        "id": "10",
+        "name": "X-Ray And Ultrasound",
+        "description": "The flu (a.k.a. influenza) is a highly contagious virus that infects millions every year. Unlike the common cold, the flu can last up to two weeks, with some symptoms lasting even longer and can be potentially life-threatening to high-risk groups such as children and seniors.Influenze (the flu) is a contagious disease caused by a virus. It is spread by coughing, sneezing, or respiratory secretions. The best way to prevent the flu is by getting immunized. At royal West Medical Clinic, we provide our patients with proper vaccination and flu shots to protect them against the viruses.Our staff includes efficient, polite and friendly receptionists, skilled and knowledgeable X-ray and ultrasound technologists and experienced radiologists. We work tirelessly to make sure that all our patients have the best care possible, so that the wait times are shortened, without jeopardizing attention to detail and quality of work.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzIF-hLJpgxmzQ_-DfJAshUr4cfZaOj72ow&usqp=CAU"
+    },
+
+    {
+        "id": "11",
+        "name": "Advanced Technology",
+        "description": "Our medical facility is equipped with the latest technology and talent. We are a complete service medical clinic in Edmonton.The future of healthcare is shaping up in front of our very eyes with advances in digital healthcare technologies, such as artificial intelligence, VR/AR, 3D-printing, robotics or nanotechnology. We have to familiarize with the latest developments in order to be able to control technology and not the other way around. The future of healthcare lies in working hand-in-hand with technology and healthcare workers have to embrace emerging healthcare technologies in order to stay relevant in the coming years.In medicine and healthcare, digital technology could help transform unsustainable healthcare systems into sustainable ones, equalize the relationship between medical professionals and patients, provide cheaper, faster and more effective solutions for diseases – technologies could win the battle for us against cancer, AIDS or Ebola – and could simply lead to healthier individuals living in healthier communities.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjjqyOvakt1Yk50YUqhxcxlf48V4g9Xm80w&usqp=CAU"
+    }
+
+]

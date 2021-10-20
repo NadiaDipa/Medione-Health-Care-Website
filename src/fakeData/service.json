@@ -1,0 +1,42 @@
+[{
+        "id": "01",
+        "name": "Medical Counselling",
+        "description": "Counsellors sometimes work in general practices to treat patients with mental heath problems in primary care",
+        "image": "https://bohatala.com/wp-content/uploads/2017/07/medical-counseling.jpg"
+    },
+
+    {
+        "id": "02",
+        "name": "Qualified Doctors",
+        "description": "We have a team of experienced and qualified doctors. Call us to know more about our doctors and staff.",
+        "image": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX7144434.jpg"
+    },
+
+    {
+        "id": "03",
+        "name": "Emergency Care",
+        "description": "In case of an emergency, feel free to contact us. Our doctors will provide you with the right assistance.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdycDff0v9347ZgTRlCqBNfJgK_47i_HoMg&usqp=CAU"
+    },
+
+    {
+        "id": "04",
+        "name": "Covid-19 Vaccine",
+        "description": "COVID-19 vaccines are 100% free for every individual living in the United States - even if you do not have insurance.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdMWZixok0X3CX-07DI5dcfVol5t0ub4kqw&usqp=CAU"
+    },
+
+    {
+        "id": "05",
+        "name": "Medication",
+        "description": "We assessed the effect of early in-hospital pharmacist-led medication review on the health outcomes of high-risk patients.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOo3AWj_MVwLyLO9M4uBKCJaQVA61ojzlnQ&usqp=CAU"
+    },
+
+    {
+        "id": "06",
+        "name": "Neurological Surgery",
+        "description": "Our surgeons are concerned with the diagnosis and surgical treatment of disorders which affect any portion of the nervous system.",
+        "image": "https://www.indicure.com/images/hospitals/Best%20Neurosurgery%20Hospitals%20in%20India/best-neurology-hospitals-in-india.png"
+    }
+]

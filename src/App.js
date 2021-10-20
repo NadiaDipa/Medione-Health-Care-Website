@@ -3,11 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // Link
 } from "react-router-dom";
-// import Home from './components/Home/Home';
-// import Courses from './components/Courses/Courses';
-// import NotFound from './components/NotFound/NotFound';
+
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -16,54 +13,43 @@ import Register from './components/Register/Register';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
-import Home from './components/Home/Home';
-// import Services from './components/Services/Services';
-// import Contact from './components/Contact/Contact';
-// import About from './components/AboutUs/About';
+import MainServices from './components/Services/MainServices/MainServices';
+import Home from '../src/components/Home/Home/Home';
+import OurDoctors from './components/OurDoctors/OurDoctors';
 
 
 
 function App() {
-  // useEffect(() =>{
-  //   fetch('./info.json')
-  //   .then(res => res.json())
-  //   .then(data => console.log(data))
-  // }, [])
   return (
     <div>
       <Router>
         <Header></Header>
       <Switch>
-        {/* <Route exact path="/">
+        <Route exact path="/">
           <Home></Home>
         </Route>
-        <Route exact path = "/Home" >
+        <Route path="/home">
           <Home></Home>
         </Route>
-        <Route exact path = "/Courses" >
-          <Courses></Courses>
+        <Route path = "/services" >
+          <MainServices></MainServices>
         </Route>
-        <Route exact path = "/Services" >
-          <Services></Services>
+        <Route path = "/doctors" >
+          <OurDoctors></OurDoctors>
         </Route>
-        <Route exact path = "/Contact" >
-          <Contact></Contact>
-        </Route> */}
-       
-        
-        <Route exact path = "/contact" >
+        <Route path = "/contact" >
           <Contact></Contact>
         </Route>
-        <Route exact path = "/about" >
+        <Route path = "/about" >
           <About></About>
         </Route>
         <Route path = "/login" >
           <Login></Login>
         </Route>
-         <Route exact path = "/register" >
+         <Route path = "/register" >
           <Register></Register>
         </Route>
-        <Route exact path="*">
+        <Route path="*">
           <NotFound></NotFound>
         </Route>
       </Switch>

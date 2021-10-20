@@ -1,0 +1,42 @@
+[{
+        "id": "01",
+        "name": "Medical Counselling",
+        "description": "There are a number of different forms of counselling, some of which are used in specific circumstances. In all forms of counselling the relationship between counsellor and client is of great importance. Counsellors sometimes work in general practices to treat patients with mental heath problems in primary care",
+        "image": "https://bohatala.com/wp-content/uploads/2017/07/medical-counseling.jpg"
+    },
+
+    {
+        "id": "02",
+        "name": "Qualified Doctors",
+        "description": "We have a team of experienced and qualified doctors. Call us to know more about our doctors and staff.All doctors, other than a foundation year one doctors, can work as locum doctors. Locum doctors can therefore be foundation year two junior doctors, junior doctors in speciality training, SAS doctors, GPs or consultants working in hospital.",
+        "image": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX7144434.jpg"
+    },
+
+    {
+        "id": "03",
+        "name": "Emergency Care",
+        "description": "In case of an emergency, feel free to contact us. Our doctors will provide you with the right assistance at the right time.All doctors, other than a foundation year one doctors, can work as locum doctors. Locum doctors can therefore be foundation year two junior doctors, junior doctors in speciality training, SAS doctors, GPs or consultants working in hospital.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdycDff0v9347ZgTRlCqBNfJgK_47i_HoMg&usqp=CAU"
+    },
+
+    {
+        "id": "04",
+        "name": "Covid-19 Vaccine",
+        "description": "Medione is now offering Covid-19 Vaccine, Book your appointment now !!Based on evidence from clinical trials, the Moderna vaccine was 94.1% effective at preventing laboratory-confirmed COVID-19 illness in people who received two doses who had no evidence of being previously infected.Now that COVID-19 vaccines have reached billions of people worldwide, the evidence is overwhelming that no matter which one you take, the vaccines offer life-saving protection against a disease that has killed millions. The pandemic is far from over, and they are our best bet of staying safe.There are four types of vaccines in clinical trials: whole virus, protein subunit, viral vector and nucleic acid (RNA and DNA), each of which protects people, but by producing immunity in a slightly different way.COVID-19 vaccines are 100% free for every individual living in the United States - even if you do not have insurance.If you are uninsured or undocumented, talk to a provider to see if they will agree to bill the federal government for COVID-19 services so you do not have to pay any costs.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdMWZixok0X3CX-07DI5dcfVol5t0ub4kqw&usqp=CAU"
+    },
+
+    {
+        "id": "05",
+        "name": "Medication",
+        "description": "Early pharmacist-led medication review was associated with reduced hospital-bed utilization compared to usual care among high-risk patients under 80 years of age, but not among those who were older. The results of our evaluation suggest that medication review by pharmacists in the emergency department may impact the length of hospital stay in select patient populations.Medication review interventions aim to identify adverse drug events and optimize medication use. Previous evaluations of in-hospital medication reviews have focused on interventions at discharge, with an unclear effect on health outcomes. We assessed the effect of early in-hospital pharmacist-led medication review on the health outcomes of high-risk patients.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOo3AWj_MVwLyLO9M4uBKCJaQVA61ojzlnQ&usqp=CAU"
+    },
+
+    {
+        "id": "06",
+        "name": "Neurological Surgery",
+        "description": "Our surgeons are concerned with the diagnosis and surgical treatment of disorders which affect any portion of the nervous system.Our hospital offers the latest in neurosurgical care, including lifesaving, technically demanding procedures that help adults and children with complex and serious conditions.Our neurosurgery doctors treat neurological diseases such as brain injury or diseases, head injury, spinal injury, brain tumors, spinal tumors, brain hemorrhage, hydrocephalus, nerve injuries, tumors, disc prolapse or herniation, spinal dislocation, unstable spine, congenital malformations like atlanto-axial dislocation, spinal dysraphism etc.",
+        "image": "https://www.indicure.com/images/hospitals/Best%20Neurosurgery%20Hospitals%20in%20India/best-neurology-hospitals-in-india.png"
+    }
+]

@@ -8,29 +8,34 @@ import useFirebase from '../../hooks/useFirebase';
 
 const Header = () => {
     const {user, logOut} = useFirebase();
+    console.log(user)
     return (
         <div>
-             <Navbar className="header">
+             <div Navbar className = "header" collapseOnSelect expand = "lg">
                 <Container>
                     
                    <img width="170px" height="70px" src = "./image/logo.png" alt = ""/>
+
 
                    {/* navbar-section  */}
                         <Nav className = "ms-auto" >
                             <Link className="nav-link me-4 nav-item" to="/home">Home</Link>
                             <Link className="nav-link me-4 nav-item" to="/services">Services</Link>
+                              <Link className="nav-link me-4 nav-item" to="/doctors">Our Doctors</Link>
                             <Link className="nav-link me-4 nav-item" to="/contact">Contact</Link>
                             <Link className="nav-link me-4 nav-item" to="/about">About</Link>
 
+                            <span className="text-light me-2 fs-6">{user?.displayName}</span>
+
                             {
-                                user.email ?
-                                    <button onClick={logOut}>Log Out</button>
+                                user.displayName ?
+                                    <button onClick={logOut} className="btn btn-outline-primary">Log Out</button>
                                 :
-                                <Link className="nav-link me-4 nav-item" to="/login">Login</Link>
+                                <Link className="nav-link me-4 nav-item btn btn-outline-primary" to="/login">Login</Link>
                             }
                         </Nav>
                 </Container>
-            </Navbar>
+            </div>
             
        
 

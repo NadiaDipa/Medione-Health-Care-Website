@@ -1,11 +1,16 @@
-body{
+body {
     background-color: whitesmoke;
 }
+
 .login-form {
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.forget-pass {
+    margin-left: 255px;
 }
 
 .login-form small {

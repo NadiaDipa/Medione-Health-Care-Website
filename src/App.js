@@ -16,6 +16,7 @@ import Register from './components/Register/Register';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
+import Home from './components/Home/Home';
 // import Services from './components/Services/Services';
 // import Contact from './components/Contact/Contact';
 // import About from './components/AboutUs/About';
@@ -48,6 +49,8 @@ function App() {
         <Route exact path = "/Contact" >
           <Contact></Contact>
         </Route> */}
+       
+        
         <Route exact path = "/contact" >
           <Contact></Contact>
         </Route>

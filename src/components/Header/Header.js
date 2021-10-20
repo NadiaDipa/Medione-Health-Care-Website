@@ -3,9 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import './Header.css'
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
+
 
 const Header = () => {
-    
+    const {user, logOut} = useFirebase();
     return (
         <div>
              <Navbar className="header">
@@ -18,8 +20,14 @@ const Header = () => {
                             <Link className="nav-link me-4 nav-item" to="/home">Home</Link>
                             <Link className="nav-link me-4 nav-item" to="/services">Services</Link>
                             <Link className="nav-link me-4 nav-item" to="/contact">Contact</Link>
-                             <Link className="nav-link me-4 nav-item" to="/about">About</Link>
-                            <Link className="nav-link me-4 nav-item" to="/login">Login</Link>
+                            <Link className="nav-link me-4 nav-item" to="/about">About</Link>
+
+                            {
+                                user.email ?
+                                    <button onClick={logOut}>Log Out</button>
+                                :
+                                <Link className="nav-link me-4 nav-item" to="/login">Login</Link>
+                            }
                         </Nav>
                 </Container>
             </Navbar>

@@ -1,47 +1,65 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Login.css';
+import useFirebase from '../../hooks/useFirebase';
+import './Login.css'
 
 const Login = () => {
+    const { user, signInUsingGit, signInUsingEmailPassword, handleEmail, handlePass, signInUsingGoogle} = useFirebase();
     return (
-        <div className="login-form m-4">
-            <Form Form onSubmit = ""
-            className = "border border-5 p-5" >
-                <small>Welcome Back</small>
-                <h2 className="login-header">Login to your account</h2>
-                <hr />
-               
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Your email" />
-                    <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Enter Your Password" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Keep me logged in" />
-                </Form.Group>
-                <Link>Forget Your Password?</Link>
-                <br />
-                <br />
-               <Button className="submit-btn" type="submit">
-                    Submit
-                </Button>
+       <div className="w-50 mx-auto p-5 shadow my-5">
+           <div>
+            <form onSubmit="">
+                <div className="mb-4">
+                    <p className="text-center">Welcome Back</p>
+                    <h2 className="login-header">Login to your account</h2>
+                    <hr />
+                </div>
+                <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">Email address</label>
+                    <input onBlur="" type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">Password</label>
+                    <input onBlur="" type="password" className="form-control" id="exampleInputPassword1" />
+                </div>
+                <div className="mb-3 form-check">
+                    <input onBlur="" type="checkbox" className="form-check-input" id="exampleCheck1" />
+                    <label className="form-check-label" for="exampleCheck1">Keep me logged in</label>
+                    
+                    <Link  className="forget-pass">Forget Your Password?</Link>
+                    
+                </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
                 
-                <br />
-                <br />
-                <p>Don't have an account? <Link to="/register">Create Account</Link></p>
-                <button className="btn-regular">Google Sign In</button>
-            </Form>
-        </div>
-    );
+            </form>
+            
+            <br />
+            <br />
+       </div>
+       <div>OR</div>
+
+        <p> Don 't have an account? <Link to="/register">Create Account</Link></p>
+       <div className="fs-2 text-center">
+            <i onClick={signInUsingGoogle} className= "fab fa-google text-danger" ></i>
+            <i onClick={signInUsingGit} className= "fab fa-github ms-3" > </i>
+       </div>
+
+       
+       </div>
+
+
+
+    )
 };
+
+
+
+
+
+        // <button onClick={signInUsingGoogle}>Google</button>
+
+
 
 export default Login;

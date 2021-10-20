@@ -8,9 +8,7 @@ const Contact = () => {
         <div className="contact-body">
             {/* image-section */}
             <div className="contact-img">
-                 <img width = "500px"
-                 src = ""
-                 alt = ""/>
+                 <img width = "500px" src = "./image/contact.png" alt = ""/>
             </div>
             {/* form-section */}
             <div className="from">
